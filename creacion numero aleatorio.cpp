@@ -3,7 +3,7 @@
 #include <conio.h>
 #include <time.h>
 using namespace std;
-main()
+int main()
 {
 	srand(time(NULL));
 	int aleatorio=0; cout<<endl<<endl;
@@ -15,6 +15,7 @@ main()
 		cout<<"el numero "<<i<<" generado es: "<<aleatorio<<endl; 
 	}
 	getch();
+	return 0;
 }
 
 
